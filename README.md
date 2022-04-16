@@ -22,8 +22,8 @@ docker-compose -f docker-compose.yaml --env-file dev.env down
 
 ### Testing the connection between app container & database container
 
-1. Make an API call to POST `localhost:3000/seed/payments` to insert/seed payment documents on mongodb
-2. Test retrieval by calling API GET `localhost:3000/payments`
+1. Make an API call to `POST localhost:3000/seed/payments` to insert/seed payment documents on mongodb
+2. Test retrieval by calling API `GET localhost:3000/payments`
 
 ### Accessing MongoDB Web Interface
 
