@@ -6,7 +6,7 @@
 docker build --no-cache -t sample-node-express-docker-app:1.0.0 .
 ```
 
-2. Run all the services including the previously built image above using Docker Compose
+2. Run all the services which includes the previously built node app image above using Docker Compose
 
 ```
 docker-compose -f docker-compose.yaml --env-file dev.env up -d
