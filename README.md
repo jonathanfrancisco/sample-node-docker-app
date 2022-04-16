@@ -24,3 +24,7 @@ docker-compose -f docker-compose.yaml --env-file dev.env down
 
 1. Make an API call to POST `/seed/payments` to insert/seed payment documents on mongodb
 2. Test retrieval by calling API GET `/payments`
+
+### Accessing MongoDB Web Interface
+
+In this sample setup, mongo-express is also included in the docker compose services which is a a lightweight web-based administrative interface deployed to manage MongoDB databases interactively. The web-based interface can be access on `localhost:8081`
